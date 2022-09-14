@@ -39,12 +39,12 @@ print(rectangleSquare(a:7, b:8))
 
 //Функция нахождения площади круга, r - радиус, p = 3,14 = 3 (округление)
 
-func circleArea(r: Int, p: Int) {
+func circleArea(r: Double, p: Double ) {
     print("Number is \(r)")
     print("Number is \(p)")
-    print (r * r * p)
+    print(r * p * r)
 }
-print(circleArea(r:4, p:3))
+print(circleArea(r:4, p:3.14))
 
 
 //Задание №2
